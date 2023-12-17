@@ -1,0 +1,70 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(6, 42, 65);
+    height: 100vh;
+
+    main{
+        background-color: #fff;
+        height: 40rem;
+        width: 70%;
+        padding: 3rem;
+        border-radius: 0 200px 200px 0;
+        >form{
+            margin: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >div{
+                height: 5rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin: 0.5rem;
+                width: 60%;
+                >label{
+                    font: 400 1.2rem "Roboto";
+                    width: 20%;
+                    text-transform: capitalize;
+                    margin: 0 1rem;
+                }
+                >input{
+                    align-self: stretch;
+                    padding: 1rem;
+                    width: 80%;
+                    border-radius: 5px;
+                    border: 1px solid rgba(123,123,123,0.6);
+                    outline:none;
+                }
+
+            }
+            >button{
+             margin: 3rem 0;
+             padding: 0.7rem;
+             border: none;
+             border-radius: 5px;
+             border: 1px solid rgb(6, 42, 65);
+             color: rgb(6, 42, 65); 
+             width: 200px;
+             text-transform: uppercase;
+             font: 500 1rem "Roboto";
+             transition: all 0.5s;
+             animation:btnpress 0.5s; 
+             &:hover{
+                cursor: pointer;
+                color: #fff;
+              background-color: rgb(6, 42, 65);
+             }
+             &:active{
+                transform: scale(0.9) translateY(-5%);
+             }
+            }
+        }
+
+    }
+}

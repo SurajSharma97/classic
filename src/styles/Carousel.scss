@@ -1,0 +1,60 @@
+.carousel{
+    height: 720px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: black;
+
+    .innerCarousel{
+        width: 100%;
+        height: 100%; 
+        background-position: center/auto;
+        background-size: cover;
+       
+        display: flex;
+background-repeat: no-repeat;
+
+>.left{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+>.right{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    color: #fff;
+}
+>.center{
+    flex: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+
+    >h1{
+        font-family: 'Raleway', sans-serif;
+        color: #fff;
+
+    }
+    >p{
+        color: #000;
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #fff;
+    }
+    
+}
+} 
+}
